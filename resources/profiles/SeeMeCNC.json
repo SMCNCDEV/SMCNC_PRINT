@@ -54,11 +54,11 @@
             "sub_path": "machine/SeeMeCNC BOSSdelta 300 0.5 noz.json"
         },
         {
-            "name": "SeeMeCNC BOSSdelta 300 0.4 noz",
+            "name": "SeeMeCNC Artemis 300 0.4 noz",
             "sub_path": "machine/SeeMeCNC Artemis 300 0.4 noz.json"
         },
         {
-            "name": "SeeMeCNC BOSSdelta 300 0.5 noz",
+            "name": "SeeMeCNC Artemis 300 0.5 noz",
             "sub_path": "machine/SeeMeCNC Artemis 300 0.5 noz.json"
         }
     ]
