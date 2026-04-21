@@ -9,9 +9,21 @@
             "sub_path": "machine/SeeMeCNC BOSSdelta 300.json"
 		},
 		{
+            "name": "SeeMeCNC BOSSdelta 500",
+            "sub_path": "machine/SeeMeCNC BOSSdelta 500.json"
+		},
+		{
             "name": "SeeMeCNC Artemis 300",
             "sub_path": "machine/SeeMeCNC Artemis 300.json"
-        }
+        },
+		{
+            "name": "SeeMeCNC RostockMAX V4 300",
+            "sub_path": "machine/SeeMeCNC RostockMAX V4 300.json"
+		},
+		{
+            "name": "SeeMeCNC RostockMAX V32 300",
+            "sub_path": "machine/SeeMeCNC RostockMAX V32 300.json"
+		}
     ],
     "process_list": [
         {
