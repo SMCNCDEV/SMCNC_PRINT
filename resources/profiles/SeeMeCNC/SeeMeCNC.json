@@ -1,0 +1,954 @@
+{
+    "name": "SeeMeCNC",
+    "url": "https://www.seemecnc.com/",
+    "config_version": "1.0.0.1",
+    "config_update_url": "",
+    "machine_model_list": [
+        {
+            "name": "SeeMeCNC Artemis 300",
+            "sub_path": "machine/SeeMeCNC Artemis 300.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 300",
+            "sub_path": "machine/SeeMeCNC BOSSdelta 300.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0505",
+            "sub_path": "machine/SeeMeCNC BOSSdelta 500 0505.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0510",
+            "sub_path": "machine/SeeMeCNC BOSSdelta 500 0510.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0521",
+            "sub_path": "machine/SeeMeCNC BOSSdelta 500 0521.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v3.2",
+            "sub_path": "machine/SeeMeCNC RostockMAX v3.2.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v4",
+            "sub_path": "machine/SeeMeCNC RostockMAX v4.json"
+        }
+    ],
+    "machine_list": [
+        {
+            "name": "SeeMeCNC Artemis 0.4 nozzle",
+            "sub_path": "machine/SeeMeCNC_Artemis_0_4mm.json"
+        },
+        {
+            "name": "SeeMeCNC Artemis 0.5 nozzle",
+            "sub_path": "machine/SeeMeCNC_Artemis_0_5mm.json"
+        },
+        {
+            "name": "SeeMeCNC Artemis 0.7 nozzle",
+            "sub_path": "machine/SeeMeCNC_Artemis_0_7mm.json"
+        },
+        {
+            "name": "SeeMeCNC Artemis 1.0 nozzle",
+            "sub_path": "machine/SeeMeCNC_Artemis_1_0mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0505 0.4 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0505 0.5 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0505_0_5mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0505 0.7 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0505_0_7mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0505 1.0 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0505_1_0mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0510 0.4 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0510_0_4mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0510 0.5 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0510_0_5mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0510 0.7 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0510_0_7mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0510 1.0 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0510_1_0mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0521 0.4 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0521_0_4mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0521 0.5 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0521_0_5mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0521 0.7 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0521_0_7mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 500 0521 1.0 nozzle",
+            "sub_path": "machine/SeeMeCNC_BOSSdelta500_0521_1_0mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 300 0.4 nozzle",
+            "sub_path": "machine/SeeMeCNC_Boss300_0_4mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 300 0.5 nozzle",
+            "sub_path": "machine/SeeMeCNC_Boss300_0_5mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 300 0.7 nozzle",
+            "sub_path": "machine/SeeMeCNC_Boss300_0_7mm.json"
+        },
+        {
+            "name": "SeeMeCNC BOSSdelta 300 1.0 nozzle",
+            "sub_path": "machine/SeeMeCNC_Boss300_1_0mm.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v3.2 0.4 nozzle",
+            "sub_path": "machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v3.2 0.5 nozzle",
+            "sub_path": "machine/SeeMeCNC_RostockMAX_v3.2_0_5mm.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v3.2 0.7 nozzle",
+            "sub_path": "machine/SeeMeCNC_RostockMAX_v3.2_0_7mm.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v3.2 1.0 nozzle",
+            "sub_path": "machine/SeeMeCNC_RostockMAX_v3.2_1_0mm.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v4 0.4 nozzle",
+            "sub_path": "machine/SeeMeCNC_RostockMAX_v4_0_4mm.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v4 0.5 nozzle",
+            "sub_path": "machine/SeeMeCNC_RostockMAX_v4_0_5mm.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v4 0.7 nozzle",
+            "sub_path": "machine/SeeMeCNC_RostockMAX_v4_0_7mm.json"
+        },
+        {
+            "name": "SeeMeCNC RostockMAX v4 1.0 nozzle",
+            "sub_path": "machine/SeeMeCNC_RostockMAX_v4_1_0mm.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name": "0.20mm Standard @SeeMeCNC Artemis",
+            "sub_path": "process/0_20mm_Standard_SeeMeCNC_Artemis.json"
+        },
+        {
+            "name": "0.20mm Standard @SeeMeCNC BOSSdelta 500 0505",
+            "sub_path": "process/0_20mm_Standard_SeeMeCNC_BOSSdelta500_0505.json"
+        },
+        {
+            "name": "0.20mm Standard @SeeMeCNC BOSSdelta 500 0510",
+            "sub_path": "process/0_20mm_Standard_SeeMeCNC_BOSSdelta500_0510.json"
+        },
+        {
+            "name": "0.20mm Standard @SeeMeCNC BOSSdelta 500 0521",
+            "sub_path": "process/0_20mm_Standard_SeeMeCNC_BOSSdelta500_0521.json"
+        },
+        {
+            "name": "0.20mm Standard @SeeMeCNC BOSSdelta 300",
+            "sub_path": "process/0_20mm_Standard_SeeMeCNC_Boss300.json"
+        },
+        {
+            "name": "0.20mm Standard @SeeMeCNC RostockMAX v3.2",
+            "sub_path": "process/0_20mm_Standard_SeeMeCNC_RostockMAX_v3.2.json"
+        },
+        {
+            "name": "0.20mm Standard @SeeMeCNC RostockMAX v4",
+            "sub_path": "process/0_20mm_Standard_SeeMeCNC_RostockMAX_v4.json"
+        },
+        {
+            "name": "0.25mm Standard @SeeMeCNC Artemis 0.5",
+            "sub_path": "process/0_25mm_Standard_SeeMeCNC_Artemis_0_5.json"
+        },
+        {
+            "name": "0.25mm Standard @SeeMeCNC BOSSdelta 500 0505 0.5",
+            "sub_path": "process/0_25mm_Standard_SeeMeCNC_BOSSdelta500_0505_0_5.json"
+        },
+        {
+            "name": "0.25mm Standard @SeeMeCNC BOSSdelta 500 0510 0.5",
+            "sub_path": "process/0_25mm_Standard_SeeMeCNC_BOSSdelta500_0510_0_5.json"
+        },
+        {
+            "name": "0.25mm Standard @SeeMeCNC BOSSdelta 500 0521 0.5",
+            "sub_path": "process/0_25mm_Standard_SeeMeCNC_BOSSdelta500_0521_0_5.json"
+        },
+        {
+            "name": "0.25mm Standard @SeeMeCNC BOSSdelta 300 0.5",
+            "sub_path": "process/0_25mm_Standard_SeeMeCNC_Boss300_0_5.json"
+        },
+        {
+            "name": "0.25mm Standard @SeeMeCNC RostockMAX v3.2 0.5",
+            "sub_path": "process/0_25mm_Standard_SeeMeCNC_RostockMAX_v3.2_0_5.json"
+        },
+        {
+            "name": "0.25mm Standard @SeeMeCNC RostockMAX v4 0.5",
+            "sub_path": "process/0_25mm_Standard_SeeMeCNC_RostockMAX_v4_0_5.json"
+        },
+        {
+            "name": "0.35mm Standard @SeeMeCNC Artemis 0.7",
+            "sub_path": "process/0_35mm_Standard_SeeMeCNC_Artemis_0_7.json"
+        },
+        {
+            "name": "0.35mm Standard @SeeMeCNC BOSSdelta 500 0505 0.7",
+            "sub_path": "process/0_35mm_Standard_SeeMeCNC_BOSSdelta500_0505_0_7.json"
+        },
+        {
+            "name": "0.35mm Standard @SeeMeCNC BOSSdelta 500 0510 0.7",
+            "sub_path": "process/0_35mm_Standard_SeeMeCNC_BOSSdelta500_0510_0_7.json"
+        },
+        {
+            "name": "0.35mm Standard @SeeMeCNC BOSSdelta 500 0521 0.7",
+            "sub_path": "process/0_35mm_Standard_SeeMeCNC_BOSSdelta500_0521_0_7.json"
+        },
+        {
+            "name": "0.35mm Standard @SeeMeCNC BOSSdelta 300 0.7",
+            "sub_path": "process/0_35mm_Standard_SeeMeCNC_Boss300_0_7.json"
+        },
+        {
+            "name": "0.35mm Standard @SeeMeCNC RostockMAX v3.2 0.7",
+            "sub_path": "process/0_35mm_Standard_SeeMeCNC_RostockMAX_v3.2_0_7.json"
+        },
+        {
+            "name": "0.35mm Standard @SeeMeCNC RostockMAX v4 0.7",
+            "sub_path": "process/0_35mm_Standard_SeeMeCNC_RostockMAX_v4_0_7.json"
+        },
+        {
+            "name": "0.50mm Standard @SeeMeCNC Artemis 1.0",
+            "sub_path": "process/0_50mm_Standard_SeeMeCNC_Artemis_1_0.json"
+        },
+        {
+            "name": "0.50mm Standard @SeeMeCNC BOSSdelta 500 0505 1.0",
+            "sub_path": "process/0_50mm_Standard_SeeMeCNC_BOSSdelta500_0505_1_0.json"
+        },
+        {
+            "name": "0.50mm Standard @SeeMeCNC BOSSdelta 500 0510 1.0",
+            "sub_path": "process/0_50mm_Standard_SeeMeCNC_BOSSdelta500_0510_1_0.json"
+        },
+        {
+            "name": "0.50mm Standard @SeeMeCNC BOSSdelta 500 0521 1.0",
+            "sub_path": "process/0_50mm_Standard_SeeMeCNC_BOSSdelta500_0521_1_0.json"
+        },
+        {
+            "name": "0.50mm Standard @SeeMeCNC BOSSdelta 300 1.0",
+            "sub_path": "process/0_50mm_Standard_SeeMeCNC_Boss300_1_0.json"
+        },
+        {
+            "name": "0.50mm Standard @SeeMeCNC RostockMAX v3.2 1.0",
+            "sub_path": "process/0_50mm_Standard_SeeMeCNC_RostockMAX_v3.2_1_0.json"
+        },
+        {
+            "name": "0.50mm Standard @SeeMeCNC RostockMAX v4 1.0",
+            "sub_path": "process/0_50mm_Standard_SeeMeCNC_RostockMAX_v4_1_0.json"
+        },
+        {
+            "name": "0.08mm Extra Fine @SeeMeCNC Artemis 0.4",
+            "sub_path": "process/0.08mm_Extra_Fine_at_SeeMeCNC_Artemis_0.4.json"
+        },
+        {
+            "name": "0.12mm High Quality @SeeMeCNC Artemis 0.4",
+            "sub_path": "process/0.12mm_High_Quality_at_SeeMeCNC_Artemis_0.4.json"
+        },
+        {
+            "name": "0.16mm Fine @SeeMeCNC Artemis 0.4",
+            "sub_path": "process/0.16mm_Fine_at_SeeMeCNC_Artemis_0.4.json"
+        },
+        {
+            "name": "0.20mm Optimal @SeeMeCNC Artemis 0.4",
+            "sub_path": "process/0.2mm_Optimal_at_SeeMeCNC_Artemis_0.4.json"
+        },
+        {
+            "name": "0.24mm Standard @SeeMeCNC Artemis 0.4",
+            "sub_path": "process/0.24mm_Standard_at_SeeMeCNC_Artemis_0.4.json"
+        },
+        {
+            "name": "0.28mm Strength @SeeMeCNC Artemis 0.4",
+            "sub_path": "process/0.28mm_Strength_at_SeeMeCNC_Artemis_0.4.json"
+        },
+        {
+            "name": "0.10mm Extra Fine @SeeMeCNC Artemis 0.5",
+            "sub_path": "process/0.1mm_Extra_Fine_at_SeeMeCNC_Artemis_0.5.json"
+        },
+        {
+            "name": "0.15mm High Quality @SeeMeCNC Artemis 0.5",
+            "sub_path": "process/0.15mm_High_Quality_at_SeeMeCNC_Artemis_0.5.json"
+        },
+        {
+            "name": "0.20mm Fine @SeeMeCNC Artemis 0.5",
+            "sub_path": "process/0.2mm_Fine_at_SeeMeCNC_Artemis_0.5.json"
+        },
+        {
+            "name": "0.25mm Optimal @SeeMeCNC Artemis 0.5",
+            "sub_path": "process/0.25mm_Optimal_at_SeeMeCNC_Artemis_0.5.json"
+        },
+        {
+            "name": "0.30mm Standard @SeeMeCNC Artemis 0.5",
+            "sub_path": "process/0.3mm_Standard_at_SeeMeCNC_Artemis_0.5.json"
+        },
+        {
+            "name": "0.35mm Strength @SeeMeCNC Artemis 0.5",
+            "sub_path": "process/0.35mm_Strength_at_SeeMeCNC_Artemis_0.5.json"
+        },
+        {
+            "name": "0.14mm Extra Fine @SeeMeCNC Artemis 0.7",
+            "sub_path": "process/0.14mm_Extra_Fine_at_SeeMeCNC_Artemis_0.7.json"
+        },
+        {
+            "name": "0.21mm High Quality @SeeMeCNC Artemis 0.7",
+            "sub_path": "process/0.21mm_High_Quality_at_SeeMeCNC_Artemis_0.7.json"
+        },
+        {
+            "name": "0.28mm Fine @SeeMeCNC Artemis 0.7",
+            "sub_path": "process/0.28mm_Fine_at_SeeMeCNC_Artemis_0.7.json"
+        },
+        {
+            "name": "0.35mm Optimal @SeeMeCNC Artemis 0.7",
+            "sub_path": "process/0.35mm_Optimal_at_SeeMeCNC_Artemis_0.7.json"
+        },
+        {
+            "name": "0.42mm Standard @SeeMeCNC Artemis 0.7",
+            "sub_path": "process/0.42mm_Standard_at_SeeMeCNC_Artemis_0.7.json"
+        },
+        {
+            "name": "0.49mm Strength @SeeMeCNC Artemis 0.7",
+            "sub_path": "process/0.49mm_Strength_at_SeeMeCNC_Artemis_0.7.json"
+        },
+        {
+            "name": "0.20mm Extra Fine @SeeMeCNC Artemis 1.0",
+            "sub_path": "process/0.2mm_Extra_Fine_at_SeeMeCNC_Artemis_1.0.json"
+        },
+        {
+            "name": "0.30mm High Quality @SeeMeCNC Artemis 1.0",
+            "sub_path": "process/0.3mm_High_Quality_at_SeeMeCNC_Artemis_1.0.json"
+        },
+        {
+            "name": "0.40mm Fine @SeeMeCNC Artemis 1.0",
+            "sub_path": "process/0.4mm_Fine_at_SeeMeCNC_Artemis_1.0.json"
+        },
+        {
+            "name": "0.50mm Optimal @SeeMeCNC Artemis 1.0",
+            "sub_path": "process/0.5mm_Optimal_at_SeeMeCNC_Artemis_1.0.json"
+        },
+        {
+            "name": "0.60mm Standard @SeeMeCNC Artemis 1.0",
+            "sub_path": "process/0.6mm_Standard_at_SeeMeCNC_Artemis_1.0.json"
+        },
+        {
+            "name": "0.70mm Strength @SeeMeCNC Artemis 1.0",
+            "sub_path": "process/0.7mm_Strength_at_SeeMeCNC_Artemis_1.0.json"
+        },
+        {
+            "name": "0.08mm Extra Fine @SeeMeCNC BOSSdelta 300 0.4",
+            "sub_path": "process/0.08mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_300_0.4.json"
+        },
+        {
+            "name": "0.12mm High Quality @SeeMeCNC BOSSdelta 300 0.4",
+            "sub_path": "process/0.12mm_High_Quality_at_SeeMeCNC_BOSSdelta_300_0.4.json"
+        },
+        {
+            "name": "0.16mm Fine @SeeMeCNC BOSSdelta 300 0.4",
+            "sub_path": "process/0.16mm_Fine_at_SeeMeCNC_BOSSdelta_300_0.4.json"
+        },
+        {
+            "name": "0.20mm Optimal @SeeMeCNC BOSSdelta 300 0.4",
+            "sub_path": "process/0.2mm_Optimal_at_SeeMeCNC_BOSSdelta_300_0.4.json"
+        },
+        {
+            "name": "0.24mm Standard @SeeMeCNC BOSSdelta 300 0.4",
+            "sub_path": "process/0.24mm_Standard_at_SeeMeCNC_BOSSdelta_300_0.4.json"
+        },
+        {
+            "name": "0.28mm Strength @SeeMeCNC BOSSdelta 300 0.4",
+            "sub_path": "process/0.28mm_Strength_at_SeeMeCNC_BOSSdelta_300_0.4.json"
+        },
+        {
+            "name": "0.10mm Extra Fine @SeeMeCNC BOSSdelta 300 0.5",
+            "sub_path": "process/0.1mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_300_0.5.json"
+        },
+        {
+            "name": "0.15mm High Quality @SeeMeCNC BOSSdelta 300 0.5",
+            "sub_path": "process/0.15mm_High_Quality_at_SeeMeCNC_BOSSdelta_300_0.5.json"
+        },
+        {
+            "name": "0.20mm Fine @SeeMeCNC BOSSdelta 300 0.5",
+            "sub_path": "process/0.2mm_Fine_at_SeeMeCNC_BOSSdelta_300_0.5.json"
+        },
+        {
+            "name": "0.25mm Optimal @SeeMeCNC BOSSdelta 300 0.5",
+            "sub_path": "process/0.25mm_Optimal_at_SeeMeCNC_BOSSdelta_300_0.5.json"
+        },
+        {
+            "name": "0.30mm Standard @SeeMeCNC BOSSdelta 300 0.5",
+            "sub_path": "process/0.3mm_Standard_at_SeeMeCNC_BOSSdelta_300_0.5.json"
+        },
+        {
+            "name": "0.35mm Strength @SeeMeCNC BOSSdelta 300 0.5",
+            "sub_path": "process/0.35mm_Strength_at_SeeMeCNC_BOSSdelta_300_0.5.json"
+        },
+        {
+            "name": "0.14mm Extra Fine @SeeMeCNC BOSSdelta 300 0.7",
+            "sub_path": "process/0.14mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_300_0.7.json"
+        },
+        {
+            "name": "0.21mm High Quality @SeeMeCNC BOSSdelta 300 0.7",
+            "sub_path": "process/0.21mm_High_Quality_at_SeeMeCNC_BOSSdelta_300_0.7.json"
+        },
+        {
+            "name": "0.28mm Fine @SeeMeCNC BOSSdelta 300 0.7",
+            "sub_path": "process/0.28mm_Fine_at_SeeMeCNC_BOSSdelta_300_0.7.json"
+        },
+        {
+            "name": "0.35mm Optimal @SeeMeCNC BOSSdelta 300 0.7",
+            "sub_path": "process/0.35mm_Optimal_at_SeeMeCNC_BOSSdelta_300_0.7.json"
+        },
+        {
+            "name": "0.42mm Standard @SeeMeCNC BOSSdelta 300 0.7",
+            "sub_path": "process/0.42mm_Standard_at_SeeMeCNC_BOSSdelta_300_0.7.json"
+        },
+        {
+            "name": "0.49mm Strength @SeeMeCNC BOSSdelta 300 0.7",
+            "sub_path": "process/0.49mm_Strength_at_SeeMeCNC_BOSSdelta_300_0.7.json"
+        },
+        {
+            "name": "0.20mm Extra Fine @SeeMeCNC BOSSdelta 300 1.0",
+            "sub_path": "process/0.2mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_300_1.0.json"
+        },
+        {
+            "name": "0.30mm High Quality @SeeMeCNC BOSSdelta 300 1.0",
+            "sub_path": "process/0.3mm_High_Quality_at_SeeMeCNC_BOSSdelta_300_1.0.json"
+        },
+        {
+            "name": "0.40mm Fine @SeeMeCNC BOSSdelta 300 1.0",
+            "sub_path": "process/0.4mm_Fine_at_SeeMeCNC_BOSSdelta_300_1.0.json"
+        },
+        {
+            "name": "0.50mm Optimal @SeeMeCNC BOSSdelta 300 1.0",
+            "sub_path": "process/0.5mm_Optimal_at_SeeMeCNC_BOSSdelta_300_1.0.json"
+        },
+        {
+            "name": "0.60mm Standard @SeeMeCNC BOSSdelta 300 1.0",
+            "sub_path": "process/0.6mm_Standard_at_SeeMeCNC_BOSSdelta_300_1.0.json"
+        },
+        {
+            "name": "0.70mm Strength @SeeMeCNC BOSSdelta 300 1.0",
+            "sub_path": "process/0.7mm_Strength_at_SeeMeCNC_BOSSdelta_300_1.0.json"
+        },
+        {
+            "name": "0.08mm Extra Fine @SeeMeCNC BOSSdelta 500 0505 0.4",
+            "sub_path": "process/0.08mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0505_0.4.json"
+        },
+        {
+            "name": "0.12mm High Quality @SeeMeCNC BOSSdelta 500 0505 0.4",
+            "sub_path": "process/0.12mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0505_0.4.json"
+        },
+        {
+            "name": "0.16mm Fine @SeeMeCNC BOSSdelta 500 0505 0.4",
+            "sub_path": "process/0.16mm_Fine_at_SeeMeCNC_BOSSdelta_500_0505_0.4.json"
+        },
+        {
+            "name": "0.20mm Optimal @SeeMeCNC BOSSdelta 500 0505 0.4",
+            "sub_path": "process/0.2mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0505_0.4.json"
+        },
+        {
+            "name": "0.24mm Standard @SeeMeCNC BOSSdelta 500 0505 0.4",
+            "sub_path": "process/0.24mm_Standard_at_SeeMeCNC_BOSSdelta_500_0505_0.4.json"
+        },
+        {
+            "name": "0.28mm Strength @SeeMeCNC BOSSdelta 500 0505 0.4",
+            "sub_path": "process/0.28mm_Strength_at_SeeMeCNC_BOSSdelta_500_0505_0.4.json"
+        },
+        {
+            "name": "0.10mm Extra Fine @SeeMeCNC BOSSdelta 500 0505 0.5",
+            "sub_path": "process/0.1mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0505_0.5.json"
+        },
+        {
+            "name": "0.15mm High Quality @SeeMeCNC BOSSdelta 500 0505 0.5",
+            "sub_path": "process/0.15mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0505_0.5.json"
+        },
+        {
+            "name": "0.20mm Fine @SeeMeCNC BOSSdelta 500 0505 0.5",
+            "sub_path": "process/0.2mm_Fine_at_SeeMeCNC_BOSSdelta_500_0505_0.5.json"
+        },
+        {
+            "name": "0.25mm Optimal @SeeMeCNC BOSSdelta 500 0505 0.5",
+            "sub_path": "process/0.25mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0505_0.5.json"
+        },
+        {
+            "name": "0.30mm Standard @SeeMeCNC BOSSdelta 500 0505 0.5",
+            "sub_path": "process/0.3mm_Standard_at_SeeMeCNC_BOSSdelta_500_0505_0.5.json"
+        },
+        {
+            "name": "0.35mm Strength @SeeMeCNC BOSSdelta 500 0505 0.5",
+            "sub_path": "process/0.35mm_Strength_at_SeeMeCNC_BOSSdelta_500_0505_0.5.json"
+        },
+        {
+            "name": "0.14mm Extra Fine @SeeMeCNC BOSSdelta 500 0505 0.7",
+            "sub_path": "process/0.14mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0505_0.7.json"
+        },
+        {
+            "name": "0.21mm High Quality @SeeMeCNC BOSSdelta 500 0505 0.7",
+            "sub_path": "process/0.21mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0505_0.7.json"
+        },
+        {
+            "name": "0.28mm Fine @SeeMeCNC BOSSdelta 500 0505 0.7",
+            "sub_path": "process/0.28mm_Fine_at_SeeMeCNC_BOSSdelta_500_0505_0.7.json"
+        },
+        {
+            "name": "0.35mm Optimal @SeeMeCNC BOSSdelta 500 0505 0.7",
+            "sub_path": "process/0.35mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0505_0.7.json"
+        },
+        {
+            "name": "0.42mm Standard @SeeMeCNC BOSSdelta 500 0505 0.7",
+            "sub_path": "process/0.42mm_Standard_at_SeeMeCNC_BOSSdelta_500_0505_0.7.json"
+        },
+        {
+            "name": "0.49mm Strength @SeeMeCNC BOSSdelta 500 0505 0.7",
+            "sub_path": "process/0.49mm_Strength_at_SeeMeCNC_BOSSdelta_500_0505_0.7.json"
+        },
+        {
+            "name": "0.20mm Extra Fine @SeeMeCNC BOSSdelta 500 0505 1.0",
+            "sub_path": "process/0.2mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0505_1.0.json"
+        },
+        {
+            "name": "0.30mm High Quality @SeeMeCNC BOSSdelta 500 0505 1.0",
+            "sub_path": "process/0.3mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0505_1.0.json"
+        },
+        {
+            "name": "0.40mm Fine @SeeMeCNC BOSSdelta 500 0505 1.0",
+            "sub_path": "process/0.4mm_Fine_at_SeeMeCNC_BOSSdelta_500_0505_1.0.json"
+        },
+        {
+            "name": "0.50mm Optimal @SeeMeCNC BOSSdelta 500 0505 1.0",
+            "sub_path": "process/0.5mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0505_1.0.json"
+        },
+        {
+            "name": "0.60mm Standard @SeeMeCNC BOSSdelta 500 0505 1.0",
+            "sub_path": "process/0.6mm_Standard_at_SeeMeCNC_BOSSdelta_500_0505_1.0.json"
+        },
+        {
+            "name": "0.70mm Strength @SeeMeCNC BOSSdelta 500 0505 1.0",
+            "sub_path": "process/0.7mm_Strength_at_SeeMeCNC_BOSSdelta_500_0505_1.0.json"
+        },
+        {
+            "name": "0.08mm Extra Fine @SeeMeCNC BOSSdelta 500 0510 0.4",
+            "sub_path": "process/0.08mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0510_0.4.json"
+        },
+        {
+            "name": "0.12mm High Quality @SeeMeCNC BOSSdelta 500 0510 0.4",
+            "sub_path": "process/0.12mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0510_0.4.json"
+        },
+        {
+            "name": "0.16mm Fine @SeeMeCNC BOSSdelta 500 0510 0.4",
+            "sub_path": "process/0.16mm_Fine_at_SeeMeCNC_BOSSdelta_500_0510_0.4.json"
+        },
+        {
+            "name": "0.20mm Optimal @SeeMeCNC BOSSdelta 500 0510 0.4",
+            "sub_path": "process/0.2mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0510_0.4.json"
+        },
+        {
+            "name": "0.24mm Standard @SeeMeCNC BOSSdelta 500 0510 0.4",
+            "sub_path": "process/0.24mm_Standard_at_SeeMeCNC_BOSSdelta_500_0510_0.4.json"
+        },
+        {
+            "name": "0.28mm Strength @SeeMeCNC BOSSdelta 500 0510 0.4",
+            "sub_path": "process/0.28mm_Strength_at_SeeMeCNC_BOSSdelta_500_0510_0.4.json"
+        },
+        {
+            "name": "0.10mm Extra Fine @SeeMeCNC BOSSdelta 500 0510 0.5",
+            "sub_path": "process/0.1mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0510_0.5.json"
+        },
+        {
+            "name": "0.15mm High Quality @SeeMeCNC BOSSdelta 500 0510 0.5",
+            "sub_path": "process/0.15mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0510_0.5.json"
+        },
+        {
+            "name": "0.20mm Fine @SeeMeCNC BOSSdelta 500 0510 0.5",
+            "sub_path": "process/0.2mm_Fine_at_SeeMeCNC_BOSSdelta_500_0510_0.5.json"
+        },
+        {
+            "name": "0.25mm Optimal @SeeMeCNC BOSSdelta 500 0510 0.5",
+            "sub_path": "process/0.25mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0510_0.5.json"
+        },
+        {
+            "name": "0.30mm Standard @SeeMeCNC BOSSdelta 500 0510 0.5",
+            "sub_path": "process/0.3mm_Standard_at_SeeMeCNC_BOSSdelta_500_0510_0.5.json"
+        },
+        {
+            "name": "0.35mm Strength @SeeMeCNC BOSSdelta 500 0510 0.5",
+            "sub_path": "process/0.35mm_Strength_at_SeeMeCNC_BOSSdelta_500_0510_0.5.json"
+        },
+        {
+            "name": "0.14mm Extra Fine @SeeMeCNC BOSSdelta 500 0510 0.7",
+            "sub_path": "process/0.14mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0510_0.7.json"
+        },
+        {
+            "name": "0.21mm High Quality @SeeMeCNC BOSSdelta 500 0510 0.7",
+            "sub_path": "process/0.21mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0510_0.7.json"
+        },
+        {
+            "name": "0.28mm Fine @SeeMeCNC BOSSdelta 500 0510 0.7",
+            "sub_path": "process/0.28mm_Fine_at_SeeMeCNC_BOSSdelta_500_0510_0.7.json"
+        },
+        {
+            "name": "0.35mm Optimal @SeeMeCNC BOSSdelta 500 0510 0.7",
+            "sub_path": "process/0.35mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0510_0.7.json"
+        },
+        {
+            "name": "0.42mm Standard @SeeMeCNC BOSSdelta 500 0510 0.7",
+            "sub_path": "process/0.42mm_Standard_at_SeeMeCNC_BOSSdelta_500_0510_0.7.json"
+        },
+        {
+            "name": "0.49mm Strength @SeeMeCNC BOSSdelta 500 0510 0.7",
+            "sub_path": "process/0.49mm_Strength_at_SeeMeCNC_BOSSdelta_500_0510_0.7.json"
+        },
+        {
+            "name": "0.20mm Extra Fine @SeeMeCNC BOSSdelta 500 0510 1.0",
+            "sub_path": "process/0.2mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0510_1.0.json"
+        },
+        {
+            "name": "0.30mm High Quality @SeeMeCNC BOSSdelta 500 0510 1.0",
+            "sub_path": "process/0.3mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0510_1.0.json"
+        },
+        {
+            "name": "0.40mm Fine @SeeMeCNC BOSSdelta 500 0510 1.0",
+            "sub_path": "process/0.4mm_Fine_at_SeeMeCNC_BOSSdelta_500_0510_1.0.json"
+        },
+        {
+            "name": "0.50mm Optimal @SeeMeCNC BOSSdelta 500 0510 1.0",
+            "sub_path": "process/0.5mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0510_1.0.json"
+        },
+        {
+            "name": "0.60mm Standard @SeeMeCNC BOSSdelta 500 0510 1.0",
+            "sub_path": "process/0.6mm_Standard_at_SeeMeCNC_BOSSdelta_500_0510_1.0.json"
+        },
+        {
+            "name": "0.70mm Strength @SeeMeCNC BOSSdelta 500 0510 1.0",
+            "sub_path": "process/0.7mm_Strength_at_SeeMeCNC_BOSSdelta_500_0510_1.0.json"
+        },
+        {
+            "name": "0.08mm Extra Fine @SeeMeCNC BOSSdelta 500 0521 0.4",
+            "sub_path": "process/0.08mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0521_0.4.json"
+        },
+        {
+            "name": "0.12mm High Quality @SeeMeCNC BOSSdelta 500 0521 0.4",
+            "sub_path": "process/0.12mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0521_0.4.json"
+        },
+        {
+            "name": "0.16mm Fine @SeeMeCNC BOSSdelta 500 0521 0.4",
+            "sub_path": "process/0.16mm_Fine_at_SeeMeCNC_BOSSdelta_500_0521_0.4.json"
+        },
+        {
+            "name": "0.20mm Optimal @SeeMeCNC BOSSdelta 500 0521 0.4",
+            "sub_path": "process/0.2mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0521_0.4.json"
+        },
+        {
+            "name": "0.24mm Standard @SeeMeCNC BOSSdelta 500 0521 0.4",
+            "sub_path": "process/0.24mm_Standard_at_SeeMeCNC_BOSSdelta_500_0521_0.4.json"
+        },
+        {
+            "name": "0.28mm Strength @SeeMeCNC BOSSdelta 500 0521 0.4",
+            "sub_path": "process/0.28mm_Strength_at_SeeMeCNC_BOSSdelta_500_0521_0.4.json"
+        },
+        {
+            "name": "0.10mm Extra Fine @SeeMeCNC BOSSdelta 500 0521 0.5",
+            "sub_path": "process/0.1mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0521_0.5.json"
+        },
+        {
+            "name": "0.15mm High Quality @SeeMeCNC BOSSdelta 500 0521 0.5",
+            "sub_path": "process/0.15mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0521_0.5.json"
+        },
+        {
+            "name": "0.20mm Fine @SeeMeCNC BOSSdelta 500 0521 0.5",
+            "sub_path": "process/0.2mm_Fine_at_SeeMeCNC_BOSSdelta_500_0521_0.5.json"
+        },
+        {
+            "name": "0.25mm Optimal @SeeMeCNC BOSSdelta 500 0521 0.5",
+            "sub_path": "process/0.25mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0521_0.5.json"
+        },
+        {
+            "name": "0.30mm Standard @SeeMeCNC BOSSdelta 500 0521 0.5",
+            "sub_path": "process/0.3mm_Standard_at_SeeMeCNC_BOSSdelta_500_0521_0.5.json"
+        },
+        {
+            "name": "0.35mm Strength @SeeMeCNC BOSSdelta 500 0521 0.5",
+            "sub_path": "process/0.35mm_Strength_at_SeeMeCNC_BOSSdelta_500_0521_0.5.json"
+        },
+        {
+            "name": "0.14mm Extra Fine @SeeMeCNC BOSSdelta 500 0521 0.7",
+            "sub_path": "process/0.14mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0521_0.7.json"
+        },
+        {
+            "name": "0.21mm High Quality @SeeMeCNC BOSSdelta 500 0521 0.7",
+            "sub_path": "process/0.21mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0521_0.7.json"
+        },
+        {
+            "name": "0.28mm Fine @SeeMeCNC BOSSdelta 500 0521 0.7",
+            "sub_path": "process/0.28mm_Fine_at_SeeMeCNC_BOSSdelta_500_0521_0.7.json"
+        },
+        {
+            "name": "0.35mm Optimal @SeeMeCNC BOSSdelta 500 0521 0.7",
+            "sub_path": "process/0.35mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0521_0.7.json"
+        },
+        {
+            "name": "0.42mm Standard @SeeMeCNC BOSSdelta 500 0521 0.7",
+            "sub_path": "process/0.42mm_Standard_at_SeeMeCNC_BOSSdelta_500_0521_0.7.json"
+        },
+        {
+            "name": "0.49mm Strength @SeeMeCNC BOSSdelta 500 0521 0.7",
+            "sub_path": "process/0.49mm_Strength_at_SeeMeCNC_BOSSdelta_500_0521_0.7.json"
+        },
+        {
+            "name": "0.20mm Extra Fine @SeeMeCNC BOSSdelta 500 0521 1.0",
+            "sub_path": "process/0.2mm_Extra_Fine_at_SeeMeCNC_BOSSdelta_500_0521_1.0.json"
+        },
+        {
+            "name": "0.30mm High Quality @SeeMeCNC BOSSdelta 500 0521 1.0",
+            "sub_path": "process/0.3mm_High_Quality_at_SeeMeCNC_BOSSdelta_500_0521_1.0.json"
+        },
+        {
+            "name": "0.40mm Fine @SeeMeCNC BOSSdelta 500 0521 1.0",
+            "sub_path": "process/0.4mm_Fine_at_SeeMeCNC_BOSSdelta_500_0521_1.0.json"
+        },
+        {
+            "name": "0.50mm Optimal @SeeMeCNC BOSSdelta 500 0521 1.0",
+            "sub_path": "process/0.5mm_Optimal_at_SeeMeCNC_BOSSdelta_500_0521_1.0.json"
+        },
+        {
+            "name": "0.60mm Standard @SeeMeCNC BOSSdelta 500 0521 1.0",
+            "sub_path": "process/0.6mm_Standard_at_SeeMeCNC_BOSSdelta_500_0521_1.0.json"
+        },
+        {
+            "name": "0.70mm Strength @SeeMeCNC BOSSdelta 500 0521 1.0",
+            "sub_path": "process/0.7mm_Strength_at_SeeMeCNC_BOSSdelta_500_0521_1.0.json"
+        },
+        {
+            "name": "0.08mm Extra Fine @SeeMeCNC RostockMAX v3.2 0.4",
+            "sub_path": "process/0.08mm_Extra_Fine_at_SeeMeCNC_RostockMAX_v3.2_0.4.json"
+        },
+        {
+            "name": "0.12mm High Quality @SeeMeCNC RostockMAX v3.2 0.4",
+            "sub_path": "process/0.12mm_High_Quality_at_SeeMeCNC_RostockMAX_v3.2_0.4.json"
+        },
+        {
+            "name": "0.16mm Fine @SeeMeCNC RostockMAX v3.2 0.4",
+            "sub_path": "process/0.16mm_Fine_at_SeeMeCNC_RostockMAX_v3.2_0.4.json"
+        },
+        {
+            "name": "0.20mm Optimal @SeeMeCNC RostockMAX v3.2 0.4",
+            "sub_path": "process/0.2mm_Optimal_at_SeeMeCNC_RostockMAX_v3.2_0.4.json"
+        },
+        {
+            "name": "0.24mm Standard @SeeMeCNC RostockMAX v3.2 0.4",
+            "sub_path": "process/0.24mm_Standard_at_SeeMeCNC_RostockMAX_v3.2_0.4.json"
+        },
+        {
+            "name": "0.28mm Strength @SeeMeCNC RostockMAX v3.2 0.4",
+            "sub_path": "process/0.28mm_Strength_at_SeeMeCNC_RostockMAX_v3.2_0.4.json"
+        },
+        {
+            "name": "0.10mm Extra Fine @SeeMeCNC RostockMAX v3.2 0.5",
+            "sub_path": "process/0.1mm_Extra_Fine_at_SeeMeCNC_RostockMAX_v3.2_0.5.json"
+        },
+        {
+            "name": "0.15mm High Quality @SeeMeCNC RostockMAX v3.2 0.5",
+            "sub_path": "process/0.15mm_High_Quality_at_SeeMeCNC_RostockMAX_v3.2_0.5.json"
+        },
+        {
+            "name": "0.20mm Fine @SeeMeCNC RostockMAX v3.2 0.5",
+            "sub_path": "process/0.2mm_Fine_at_SeeMeCNC_RostockMAX_v3.2_0.5.json"
+        },
+        {
+            "name": "0.25mm Optimal @SeeMeCNC RostockMAX v3.2 0.5",
+            "sub_path": "process/0.25mm_Optimal_at_SeeMeCNC_RostockMAX_v3.2_0.5.json"
+        },
+        {
+            "name": "0.30mm Standard @SeeMeCNC RostockMAX v3.2 0.5",
+            "sub_path": "process/0.3mm_Standard_at_SeeMeCNC_RostockMAX_v3.2_0.5.json"
+        },
+        {
+            "name": "0.35mm Strength @SeeMeCNC RostockMAX v3.2 0.5",
+            "sub_path": "process/0.35mm_Strength_at_SeeMeCNC_RostockMAX_v3.2_0.5.json"
+        },
+        {
+            "name": "0.14mm Extra Fine @SeeMeCNC RostockMAX v3.2 0.7",
+            "sub_path": "process/0.14mm_Extra_Fine_at_SeeMeCNC_RostockMAX_v3.2_0.7.json"
+        },
+        {
+            "name": "0.21mm High Quality @SeeMeCNC RostockMAX v3.2 0.7",
+            "sub_path": "process/0.21mm_High_Quality_at_SeeMeCNC_RostockMAX_v3.2_0.7.json"
+        },
+        {
+            "name": "0.28mm Fine @SeeMeCNC RostockMAX v3.2 0.7",
+            "sub_path": "process/0.28mm_Fine_at_SeeMeCNC_RostockMAX_v3.2_0.7.json"
+        },
+        {
+            "name": "0.35mm Optimal @SeeMeCNC RostockMAX v3.2 0.7",
+            "sub_path": "process/0.35mm_Optimal_at_SeeMeCNC_RostockMAX_v3.2_0.7.json"
+        },
+        {
+            "name": "0.42mm Standard @SeeMeCNC RostockMAX v3.2 0.7",
+            "sub_path": "process/0.42mm_Standard_at_SeeMeCNC_RostockMAX_v3.2_0.7.json"
+        },
+        {
+            "name": "0.49mm Strength @SeeMeCNC RostockMAX v3.2 0.7",
+            "sub_path": "process/0.49mm_Strength_at_SeeMeCNC_RostockMAX_v3.2_0.7.json"
+        },
+        {
+            "name": "0.20mm Extra Fine @SeeMeCNC RostockMAX v3.2 1.0",
+            "sub_path": "process/0.2mm_Extra_Fine_at_SeeMeCNC_RostockMAX_v3.2_1.0.json"
+        },
+        {
+            "name": "0.30mm High Quality @SeeMeCNC RostockMAX v3.2 1.0",
+            "sub_path": "process/0.3mm_High_Quality_at_SeeMeCNC_RostockMAX_v3.2_1.0.json"
+        },
+        {
+            "name": "0.40mm Fine @SeeMeCNC RostockMAX v3.2 1.0",
+            "sub_path": "process/0.4mm_Fine_at_SeeMeCNC_RostockMAX_v3.2_1.0.json"
+        },
+        {
+            "name": "0.50mm Optimal @SeeMeCNC RostockMAX v3.2 1.0",
+            "sub_path": "process/0.5mm_Optimal_at_SeeMeCNC_RostockMAX_v3.2_1.0.json"
+        },
+        {
+            "name": "0.60mm Standard @SeeMeCNC RostockMAX v3.2 1.0",
+            "sub_path": "process/0.6mm_Standard_at_SeeMeCNC_RostockMAX_v3.2_1.0.json"
+        },
+        {
+            "name": "0.70mm Strength @SeeMeCNC RostockMAX v3.2 1.0",
+            "sub_path": "process/0.7mm_Strength_at_SeeMeCNC_RostockMAX_v3.2_1.0.json"
+        },
+        {
+            "name": "0.08mm Extra Fine @SeeMeCNC RostockMAX v4 0.4",
+            "sub_path": "process/0.08mm_Extra_Fine_at_SeeMeCNC_RostockMAX_v4_0.4.json"
+        },
+        {
+            "name": "0.12mm High Quality @SeeMeCNC RostockMAX v4 0.4",
+            "sub_path": "process/0.12mm_High_Quality_at_SeeMeCNC_RostockMAX_v4_0.4.json"
+        },
+        {
+            "name": "0.16mm Fine @SeeMeCNC RostockMAX v4 0.4",
+            "sub_path": "process/0.16mm_Fine_at_SeeMeCNC_RostockMAX_v4_0.4.json"
+        },
+        {
+            "name": "0.20mm Optimal @SeeMeCNC RostockMAX v4 0.4",
+            "sub_path": "process/0.2mm_Optimal_at_SeeMeCNC_RostockMAX_v4_0.4.json"
+        },
+        {
+            "name": "0.24mm Standard @SeeMeCNC RostockMAX v4 0.4",
+            "sub_path": "process/0.24mm_Standard_at_SeeMeCNC_RostockMAX_v4_0.4.json"
+        },
+        {
+            "name": "0.28mm Strength @SeeMeCNC RostockMAX v4 0.4",
+            "sub_path": "process/0.28mm_Strength_at_SeeMeCNC_RostockMAX_v4_0.4.json"
+        },
+        {
+            "name": "0.10mm Extra Fine @SeeMeCNC RostockMAX v4 0.5",
+            "sub_path": "process/0.1mm_Extra_Fine_at_SeeMeCNC_RostockMAX_v4_0.5.json"
+        },
+        {
+            "name": "0.15mm High Quality @SeeMeCNC RostockMAX v4 0.5",
+            "sub_path": "process/0.15mm_High_Quality_at_SeeMeCNC_RostockMAX_v4_0.5.json"
+        },
+        {
+            "name": "0.20mm Fine @SeeMeCNC RostockMAX v4 0.5",
+            "sub_path": "process/0.2mm_Fine_at_SeeMeCNC_RostockMAX_v4_0.5.json"
+        },
+        {
+            "name": "0.25mm Optimal @SeeMeCNC RostockMAX v4 0.5",
+            "sub_path": "process/0.25mm_Optimal_at_SeeMeCNC_RostockMAX_v4_0.5.json"
+        },
+        {
+            "name": "0.30mm Standard @SeeMeCNC RostockMAX v4 0.5",
+            "sub_path": "process/0.3mm_Standard_at_SeeMeCNC_RostockMAX_v4_0.5.json"
+        },
+        {
+            "name": "0.35mm Strength @SeeMeCNC RostockMAX v4 0.5",
+            "sub_path": "process/0.35mm_Strength_at_SeeMeCNC_RostockMAX_v4_0.5.json"
+        },
+        {
+            "name": "0.14mm Extra Fine @SeeMeCNC RostockMAX v4 0.7",
+            "sub_path": "process/0.14mm_Extra_Fine_at_SeeMeCNC_RostockMAX_v4_0.7.json"
+        },
+        {
+            "name": "0.21mm High Quality @SeeMeCNC RostockMAX v4 0.7",
+            "sub_path": "process/0.21mm_High_Quality_at_SeeMeCNC_RostockMAX_v4_0.7.json"
+        },
+        {
+            "name": "0.28mm Fine @SeeMeCNC RostockMAX v4 0.7",
+            "sub_path": "process/0.28mm_Fine_at_SeeMeCNC_RostockMAX_v4_0.7.json"
+        },
+        {
+            "name": "0.35mm Optimal @SeeMeCNC RostockMAX v4 0.7",
+            "sub_path": "process/0.35mm_Optimal_at_SeeMeCNC_RostockMAX_v4_0.7.json"
+        },
+        {
+            "name": "0.42mm Standard @SeeMeCNC RostockMAX v4 0.7",
+            "sub_path": "process/0.42mm_Standard_at_SeeMeCNC_RostockMAX_v4_0.7.json"
+        },
+        {
+            "name": "0.49mm Strength @SeeMeCNC RostockMAX v4 0.7",
+            "sub_path": "process/0.49mm_Strength_at_SeeMeCNC_RostockMAX_v4_0.7.json"
+        },
+        {
+            "name": "0.20mm Extra Fine @SeeMeCNC RostockMAX v4 1.0",
+            "sub_path": "process/0.2mm_Extra_Fine_at_SeeMeCNC_RostockMAX_v4_1.0.json"
+        },
+        {
+            "name": "0.30mm High Quality @SeeMeCNC RostockMAX v4 1.0",
+            "sub_path": "process/0.3mm_High_Quality_at_SeeMeCNC_RostockMAX_v4_1.0.json"
+        },
+        {
+            "name": "0.40mm Fine @SeeMeCNC RostockMAX v4 1.0",
+            "sub_path": "process/0.4mm_Fine_at_SeeMeCNC_RostockMAX_v4_1.0.json"
+        },
+        {
+            "name": "0.50mm Optimal @SeeMeCNC RostockMAX v4 1.0",
+            "sub_path": "process/0.5mm_Optimal_at_SeeMeCNC_RostockMAX_v4_1.0.json"
+        },
+        {
+            "name": "0.60mm Standard @SeeMeCNC RostockMAX v4 1.0",
+            "sub_path": "process/0.6mm_Standard_at_SeeMeCNC_RostockMAX_v4_1.0.json"
+        },
+        {
+            "name": "0.70mm Strength @SeeMeCNC RostockMAX v4 1.0",
+            "sub_path": "process/0.7mm_Strength_at_SeeMeCNC_RostockMAX_v4_1.0.json"
+        }
+    ],
+    "filament_list": [
+        {
+            "name": "SeeMeCNC Generic PA-CF",
+            "sub_path": "filament/SeeMeCNC_PA-CF.json"
+        },
+        {
+            "name": "SeeMeCNC Generic PETG",
+            "sub_path": "filament/SeeMeCNC_Generic_PETG.json"
+        },
+        {
+            "name": "SeeMeCNC Generic PETG-CF",
+            "sub_path": "filament/SeeMeCNC_PETG-CF.json"
+        },
+        {
+            "name": "SeeMeCNC Generic PLA",
+            "sub_path": "filament/SeeMeCNC_Generic_PLA.json"
+        }
+    ]
+}
